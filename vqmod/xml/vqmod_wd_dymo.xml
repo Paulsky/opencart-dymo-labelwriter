@@ -1,0 +1,18 @@
+<modification>
+    <id>WD Dymo</id>
+    <version>1.0</version>
+    <vqmver>2.4.1</vqmver>
+    <author>Wijnberg Developments</author>
+    <file name="admin/view/template/sale/order_list.tpl">
+        <operation>
+            <search position="replace"><![CDATA[<a onclick="$('#form').attr('action', '<?php echo $invoice; ?>'); $('#form').attr('target', '_blank'); $('#form').submit();" class="button">]]></search>
+            <add><![CDATA[<input type='hidden' value='<?php echo $wddymo_link; ?>' id='wddymo-link' /><a class="button" id='wddymo-printer-button'><?php echo $button_wdlabel; ?></a><a onclick="$('#form').attr('action', '<?php echo $invoice; ?>'); $('#form').attr('target', '_blank'); $('#form').submit();" class="button">]]></add>
+        </operation>
+    </file>
+    <file name="admin/controller/sale/order.php">
+        <operation>
+            <search position="before"><![CDATA[$this->template = 'sale/order_list.tpl';]]></search>
+            <add><![CDATA[$this->data['wddymo_link'] = $this->url->link('wddymo/wddymo', 'token=' . $this->session->data['token'] . $url, 'SSL'); $this->load->language('wddymo/wddymo');$this->data['button_wdlabel'] = $this->language->get('button_wdlabel'); $this->document->addScript('view/javascript/wddymo/dymo.label.framework.min.js'); $this->document->addScript('view/javascript/wddymo/wddymo.js');]]></add>
+        </operation>
+    </file>
+</modification>
