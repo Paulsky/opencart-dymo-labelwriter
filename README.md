@@ -2,6 +2,8 @@
 
 This extension/module/plugin lets you print a label from the order overview in the backend of OpenCart.
 
+![OpenCart Order overview action buttons](https://cloud.githubusercontent.com/assets/9481318/6547681/577e06b6-c5df-11e4-8ad2-bbeb028a24ab.PNG)
+
 Note the following:
 * This plugin is **not** tested thoroughly
 * This plugin is only tested in OpenCart **1.5.6**
