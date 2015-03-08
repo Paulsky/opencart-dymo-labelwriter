@@ -41,7 +41,7 @@ Another quote:
  - Maybe make the plugin compatible with other eCommerce platforms?
 
 ### Version
-1.0.0
+1.0.0 Beta
 
 ### Contribute
 
