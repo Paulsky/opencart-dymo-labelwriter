@@ -27,7 +27,7 @@ At this moment the plugin only works in Internet Explorer. A while ago, with a d
 > There are plans to add Firefox/Chrome support on Mac in the upcoming DLS 8.3 release. But there is no guarantee…
 
 Another quote: 
-> I assume you are referring to Chrome on Mac OS X. Now, Chrome version 22 and above have dropped support for Carbon event > > > model of NPAPI plugins. This model event is default for 32-bit plugins and that’s why it can’t load the DYMO plugin. We have > to write a new plugin which is anticipated for DLS 8.5.0.
+> I assume you are referring to Chrome on Mac OS X. Now, Chrome version 22 and above have dropped support for Carbon event model of NPAPI plugins. This model event is default for 32-bit plugins and that’s why it can’t load the DYMO plugin. We have to write a new plugin which is anticipated for DLS 8.5.0.
 
 ### Todo's
 
