@@ -34,6 +34,7 @@ Another quote:
 ### Todo's
 
  - Write Tests
+ - Minify JavaScript files
  - Make the loading of printers more dynamic
  - Print multiple labels at once
  - Write version for OpenCart 2.0
