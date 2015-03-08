@@ -14,6 +14,7 @@ Note the following:
 
 This plugin depends on the following frameworks/SDK's/modules
 
+* An installed and connected Dymo LabelWriter or a configured (fake) Dymo LabelWriter driver
 * [VQMod] 2.4
 * [jQuery] 1.7.1 (already used in the backend of OpenCart 1.5.6)
 * [Dymo Label Framework SDK]
