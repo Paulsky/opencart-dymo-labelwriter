@@ -46,7 +46,7 @@ Another quote:
 
 ### Contribute
 
-Want to contribute? Be my quest and fork this project! Let me know all your requests and suggestions!
+Want to contribute? Be my guest and fork this project! Let me know all your requests and suggestions!
 
 ### License
 
