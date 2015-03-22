@@ -97,7 +97,7 @@ $( document ).ready(function() {
                     if ( json.length == 0 ) {
                         console.log("Did not receive any order data")
                     }else{
-                        setAddress(json);
+                        setAddress(JSON.parse(json));
                         //Dymo label SDK function
                         label.print(main_printer.name);
                     }

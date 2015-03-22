@@ -6,4 +6,3 @@
  * Time: 20:15
  */
     echo json_encode($shipping_address);
-?>
