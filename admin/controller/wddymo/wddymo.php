@@ -40,17 +40,16 @@ class ControllerWddymoWddymo extends Controller
             if ($order_info['shipping_address_format']) {
                 $format = $order_info['shipping_address_format'];
             } else {
-                $format = '{firstname} {lastname}' . "\n" . '{company}' . "\n" . '{address_1} {comment}' . "\n" . '{address_2}' . "\n" . '{postcode} {city}' . "\n" . '{zone}' . "\n" . '{country}';
+                $format = '{firstname} {lastname}' . "\n" . '{company}' . "\n" . '{address_1} {address_2}' . "\n" . '{postcode} {city}' . "\n" . '{zone}' . "\n" . '{country}';
             }
 
-            $find = array('{firstname}', '{lastname}', '{company}','{address_1}','{comment}','{address_2}', '{city}','{postcode}','{zone}','{zone_code}','{country}');
+            $find = array('{firstname}', '{lastname}', '{company}','{address_1}','{address_2}', '{city}','{postcode}','{zone}','{zone_code}','{country}');
 
             $replace = array(
                 'firstname' => $this->firstUpperCase($order_info['shipping_firstname']),
                 'lastname'  => $this->firstUpperCase($order_info['shipping_lastname']),
                 'company'   => $this->firstUpperCase($order_info['shipping_company']),
                 'address_1' => $this->firstUpperCase($order_info['shipping_address_1']),
-                'comment' => $order_info['comment'],
                 'address_2' => $this->firstUpperCase($order_info['shipping_address_2']),
                 'city'      => $this->firstUpperCase($order_info['shipping_city']),
                 'postcode'  => $this->allUpperCase($order_info['shipping_postcode']),
