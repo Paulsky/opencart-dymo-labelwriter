@@ -1,6 +1,6 @@
 # OpenCart Dymo LabelWriter
 
-This extension/module/plugin lets you print a label from the order overview in the backend of OpenCart.
+This extension/module/plugin lets you print a label from the order overview in the backend of OpenCart. For the extension of OpenCart 2.* please see this project: [OpenCart Dymo LabelWriter 2.*].
 
 ![OpenCart Order overview action buttons](https://cloud.githubusercontent.com/assets/9481318/6547681/577e06b6-c5df-11e4-8ad2-bbeb028a24ab.PNG)
 
@@ -55,3 +55,4 @@ MIT
 [Dymo Label Framework SDK]: http://labelwriter.com/software/dls/sdk/js/DYMO.Label.Framework.latest.js
 [jQuery]:http://jquery.com
 [VQMod]: https://github.com/vqmod/vqmod
+[OpenCart Dymo LabelWriter 2.*]: https://github.com/Paulsky/opencart-2-dymo-labelwriter
