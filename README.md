@@ -36,7 +36,6 @@ At this moment there are no known issues. Please let us know if you have any pro
  - Minify JavaScript files
  - Make the loading of printers more dynamic
  - Print multiple labels at once
- - Write version for OpenCart 2.0
  - Maybe make the plugin compatible with other eCommerce platforms?
 
 ### Version
