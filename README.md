@@ -8,7 +8,7 @@ Note the following:
 * This plugin is **not** tested thoroughly
 * This plugin is only tested in OpenCart **1.5.6**
 * This plugin is only tested with a **Dymo LabelWriter 450**
-* This plugin is only tested on **Windows 8.1 with Internet Explorer 11 (- succeeded) and Google Chrome 67 (- succeeded)**
+* This plugin is only tested on **Windows 10 with Internet Explorer 11 (- succeeded) and Google Chrome 67 (- succeeded)**
 * Please check on [this demo page](http://www.labelwriter.com/software/dls/sdk/samples/js/PrintLabel/PrintLabel.html) if you can print a label through your browser
 
 ### Dependencies
