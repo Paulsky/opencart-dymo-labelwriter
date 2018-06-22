@@ -30,6 +30,14 @@ This plugin depends on the following frameworks/SDK's/modules
 
 At this moment there are no known issues. Please let us know if you have any problems with the module!
 
+### Troubleshoot
+
+* Please check if you have the right version installed of the [DLS]
+* If you updated the DLS, please restart your browser or restart your computer completely.
+* Clear the OpenCart cache
+* Clear your own browser cache
+* Please check on [this demo page](http://www.labelwriter.com/software/dls/sdk/samples/js/PrintLabel/PrintLabel.html) if you can print a label through your browser. If not, try a different browser. The demo page should work. If not, this module probably won't work. 
+
 ### Todo's
 
  - Write Tests
@@ -43,7 +51,7 @@ At this moment there are no known issues. Please let us know if you have any pro
 
 ### Contribute
 
-Want to contribute? Be my guest and fork this project or create a pull request! Let me know all your requests and suggestions!
+Thank you for your interest in contributing! There are many ways to contribute to this project. Get started [here](https://github.com/Paulsky/opencart-dymo-labelwriter/blob/master/CONTRIBUTING.md).
 
 ### License
 
